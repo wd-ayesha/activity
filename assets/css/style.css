@@ -1,0 +1,134 @@
+/*Font Face*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.text-justify{
+	text-align: justify;
+}
+/* Common Code End */
+
+/*header area code start*/
+header{
+	/*background: url(../img/banner.jpg);*/
+	background: linear-gradient(to bottom, rgba(0,0,0, 0.50), rgba(0,0,0, 0.50)),
+    url('../img/banner.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.navbar .navbar-brand .fa-rebel{
+	color: #30C39E;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #30C39E;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #30C39E;
+}
+.scrolled{
+	background: #434E40;
+	transition: 2s;
+}
+
+.banner .content-part{
+	padding: 100px 0px;
+}
+.banner .content-part h1{
+	color: #30C39E;
+}
+.banner .content-part .btn-outline-light:hover {
+    color: #fff;
+    border-color: #30C39E;
+    background-color: #30C39E;
+}
+/*header area code end*/
+
+/*about area code start*/
+.about-us .btn-outline-primary {
+    color: #FFF;
+    background-color: #0a8ea0;
+    border-color: #0a8ea0;
+}
+.about-us .btn-outline-primary:hover {
+    color: #000;
+    background-color: transparent;
+    border-color: #000;
+}
+/*about area code end*/
+
+/*service area code start*/
+.services{
+	background: #30C39E;
+}
+/*service area code end*/
+
+/*experience area code start*/
+.experience .card{
+	border-radius: none;
+	border: 0px solid transparent;
+}
+.experience .card-body{
+	background: #F8F9FA;
+}
+.experience .card-title span{
+	color: #fff;
+	padding: 3px 5px;
+	background: #30C39E;
+	display: inline-block;
+}
+/*experience area code end*/
+
+/*info area code start*/
+.info-area{
+	background: #0A8EA0;
+}
+/*info area code end*/
+
+/*contact us code start*/
+.contact-us .icon-color{
+	color: #30C39E;
+	margin-right: 10px;
+}
+.contact-us iframe{
+	width: 100%;
+	min-height: 250px;
+	border: 6px solid #EEEEEE;
+}
+.contact-us .btn-outline-primary {
+    color: #FFF;
+    background-color: #0a8ea0;
+    border-color: #0a8ea0;
+}
+.contact-us .btn-outline-primary:hover {
+    color: #000;
+    background-color: transparent;
+    border-color: #000;
+}
+/*contact us code end*/
+
+/*footer code start*/
+footer{
+	background: #191919;
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0px 5px;
+}
+footer ul li a{
+	padding: 8px 14px;
+	border-radius: 6px;
+	background: #222222;
+	display: inline-block;
+}
+footer .back2top{
+	padding: 8px 12px;
+	border-radius: 50%;
+	display: inline-block;
+	border: 1px solid #222222;
+}
+/*footer code end*/
